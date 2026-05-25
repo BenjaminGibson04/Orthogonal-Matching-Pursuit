@@ -13,4 +13,4 @@ while number of iterations $$k \leq 100 $$:
 
 * $$S_{k+1} = S_k \cup \lbrace j_{k+1}\rbrace$$
 
-* $$(x_{k+1})_S_{k+1} = $$
+* $$(x_{k+1})_S_{k+1} =$$
