@@ -13,4 +13,4 @@ while number of iterations $$k \leq 100 $$:
 
 * $$S_{k+1} = S_k \cup \lbrace j_{k+1}\rbrace$$
 
-* $$(x_{k+1})_S_{k+1} = A^+_S_{k+1}b, (x_{k+1})_S^c_{k+1} = 0$$, where $$A^+$$ is the pseudo-inverse of $$A$$.$$
+* $$(x_{k+1})_S_{k+1} = $$
