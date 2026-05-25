@@ -14,3 +14,10 @@ while number of iterations $$k \leq 100 $$:
 * $$S_{k+1} = S_k \cup \lbrace j_{k+1}\rbrace$$
 
 * $`(x_{k+1})_{S_{k+1}} = A^+_{S_{k+1}}b, (x_{k+1})_{S^c_{k+1}} = 0`$, where $`A^+`$ is the pseudo-inverse of $`A`$.
+
+* $`r_{k+1} = b - Ax_{k+1}`$
+
+* $`k=k+1`$
+
+
+$`x`$ will be our final sparse solution. 
