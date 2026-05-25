@@ -9,4 +9,4 @@ while number of iterations $$k \leq 100 $$:
 
 * $$ g_k = A^Tr_k$$
 
-* $$j_{k+1} = supp(H_1(g_k))$$, where supp() is the support operator and $$H_1()$$ is the hard thresholding operator. $$supp(x) = \lbrace i \mid x_i \neq 0 \rbrace$$.  $$H_1(x)$$ sets all entries of $$x$$ to zero except for the largest entry, in terms of absolute value. 
+* $$j_{k+1} = supp(H_1(g_k))$$, where supp() is the support operator and $$H_1()$$ is the hard thresholding operator. $$supp(x) = `\{ i \mid x_i \neq 0 \}`$$.  $$H_1(x)$$ sets all entries of $$x$$ to zero except for the largest entry, in terms of absolute value. 
