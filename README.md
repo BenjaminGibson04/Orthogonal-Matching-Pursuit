@@ -11,6 +11,6 @@ while number of iterations $$k \leq 100 $$:
 
 * $$j_{k+1} = supp(H_1(g_k))$$, where supp() is the support operator and $$H_1()$$ is the hard thresholding operator. $$supp(x) = \lbrace i \mid x_i \neq 0 \rbrace$$.  $$H_1(x)$$ sets all entries of $$x$$ to zero except for the largest entry, in terms of absolute value. 
 
-* $$S_{k+1} = S_k \cup \lbracej_{k+1}\rbrace$$
+* $$S_{k+1} = S_k \cup \lbrace j_{k+1}\rbrace$$
 
 * $$(x_{k+1})_{S_{k+1}} = A^+_{S_{k+1}}b, (x_{k+1})_{S^c_{k+1}} = 0$$, where $$A^+$$ is the pseudo-inverse of $$A$$.
